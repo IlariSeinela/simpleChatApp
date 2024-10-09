@@ -1,0 +1,85 @@
+/* client/src/App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.messages {
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 5px 10px;
+  margin: 5px 0;
+  background-color: #e1ffc7;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.message-form {
+  display: flex;
+}
+
+.message-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.send-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #555;
+}
+
+/* Styles for User Identification */
+
+.username-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.username-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.username-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.username-button:hover {
+  background-color: #555;
+}
